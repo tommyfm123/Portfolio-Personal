@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&family=Poppins:wght@200;700&display=swap');
+
+:root{
+    --purple: rgb(123, 31 , 162);
+    --violet: rgb(103, 58 , 183);
+    --pink: rgb(244, 143 , 177);
+
+}
+
+@keyframes background-pan{
+    from{
+        background-position: 0% center;
+    }
+    to {
+        background-position: -200% center;
+    }
+}
+body{
+    font-family: 'Poppins', sans-serif;  
+      margin: 0;
+      padding: 0;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}

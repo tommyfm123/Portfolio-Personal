@@ -1,0 +1,68 @@
+/* knowledge */
+.title-proyect{
+    text-align: center;
+}
+.knowledge-box{
+    background-color: #201E1F;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 25px;    
+    resize: horizontal;
+    
+}
+
+ .circle-icon{
+    background-color: rgba(255, 255, 255, 0.329);
+    clip-path: circle();  
+    height: fit-content;
+    width: 19rem;
+    
+    
+
+} 
+
+.img-knowledge{
+    width:3.9rem;
+    padding-top: 12px;    
+}
+
+.icons-knowledge{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: "capacidades";
+    gap: 10px;
+    padding-top: 25px;
+
+}
+.titulo-capacidades{
+  padding-left: 120px;
+  color: orangered;
+}
+.caja-capacidades{
+    grid-area: capacidades;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    flex-wrap:wrap;
+    gap: 20px;
+    padding-bottom: 3vw;
+}
+
+.caja-experiencias{
+    grid-area: experiencias;
+    background-color: rgba(250, 235, 215, 0.678);
+    border-radius: 30px;
+    
+}
+
+.circle-icon:hover{
+    transform: scale(1.2);
+    transition: all .5s ease;
+}
+.listas-experiencias li{
+   text-align: left;
+}
+.listas-experiencias h2{
+   color: #ff4500;
+ }
