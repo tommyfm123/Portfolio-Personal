@@ -3,7 +3,7 @@
 
 
 .formulario{
-    background-color: #161918;
+    background-color: #201E1F;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -203,7 +203,7 @@ button {
 
 @media (max-width:1000px){
     .formulario{
-        background-color: white;
+        background-color: #201E1F;
         display: flex;
         flex-direction: column;
         align-items:center;
@@ -352,7 +352,7 @@ button {
 
 @media (max-width:1500px){
     .formulario{
-        background-color: white;
+        background-color: #201E1F;
         display: flex;
         flex-direction: column;
         align-items:center;
@@ -360,7 +360,7 @@ button {
         
     }
     .h2-form-title{
-        color: black;
+        color: white;
         font-size: 30px;
         text-align: center;
     }

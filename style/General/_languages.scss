@@ -3,8 +3,9 @@
     text-align: center;
 }
 .knowledge-box{
-    background-color: #201E1F;
-    padding: 30px;
+    background-color: #161918;
+    // padding: 39px;
+    padding-top: 10px;
     text-align: center;
     color: white;
     font-size: 25px;    
@@ -13,15 +14,15 @@
 }
 
  .circle-icon{
-    background-color: rgba(255, 255, 255, 0.329);
+    background-color: rgba(255, 255, 255, 0.514);
     clip-path: circle();  
     height: fit-content;
     width: 19rem;
     
-    
-
 } 
-
+#bootstrap{
+    width: 3.9vw;
+}
 .img-knowledge{
     width:3.9rem;
     padding-top: 12px;    
@@ -32,7 +33,7 @@
     grid-template-columns: auto;
     grid-template-areas: "capacidades";
     gap: 10px;
-    padding-top: 25px;
+    padding-top: 28px;
 
 }
 .titulo-capacidades{

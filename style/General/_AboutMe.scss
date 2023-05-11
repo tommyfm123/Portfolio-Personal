@@ -1,7 +1,7 @@
 /* introduction */
 
 .introduction{
-    background-color: #161918;
+    background-color: #201E1F;
     color: white;
     height: 150px;
     display: flex;
@@ -30,7 +30,8 @@
 .article{
     display: grid;
     // background-color: #353233;
-    background-color: #161918;
+    
+    background-color: #201E1F;
     grid-template-columns: auto auto;
     grid-template-rows: auto ;
     grid-template-areas:"perfil title" ;
@@ -130,6 +131,10 @@ main div h1> .magic{
         }
     }
 @media (max-width:950px){
+    main{
+        padding-top: 180px;
+        background-color: #201E1F;
+        }
     .introduction{
         background-color: #201E1F;
         color: white;

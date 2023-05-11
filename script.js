@@ -1,20 +1,15 @@
+const menuBtn = document.querySelector('.menu-btn');
+let menuOpen = false;
+menuBtn.addEventListener('click', () => {
+  if(!menuOpen) {
+    menuBtn.classList.add('open');
+    menuOpen = true;
+  } else {
+    menuBtn.classList.remove('open');
+    menuOpen = false;
+  }
+});
 
-
-
-
-//nav bar
-let menu = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
-
-menu.onclick = () => {
-  menu.classList.toggle('bx-x');
-  navbar.classList.toggle('open');
-}
-
-// Obtener todos los enlaces del navbar
-const navLinks = document.querySelectorAll('nav ul li a');
-
-// Agregar un evento de clic a cada enlace del navbar
 navLinks.forEach(link => {
   link.addEventListener('click', e => {
     e.preventDefault(); // Prevenir comportamiento predeterminado del enlace
@@ -24,3 +19,7 @@ navLinks.forEach(link => {
   });
 });
 
+
+//swiper 
+
+ 

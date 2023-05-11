@@ -9,7 +9,7 @@
 .CardsContainer{
     text-align: left;
     // background-color: #353233;\
-    background-color: #161918;
+    background-color: #201E1F;
     height: 100%;
 }
 
@@ -26,7 +26,7 @@
     padding: 20px;
     grid-gap: 40px;
     // background-color: #201E1F;
-    background-color: #161918;
+    background-color: #201E1F;
 }
 
 .card{
@@ -98,6 +98,10 @@
     font-weight: 400;
 }
 
+
+
+
+
 @media (max-width: 1280px){
     .card1>.conteiner:after{
         background-image: linear-gradient(
@@ -124,3 +128,5 @@
     }
     
 }
+
+
