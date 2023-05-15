@@ -300,7 +300,7 @@ main div h1 > .magic {
 }
 
 .details {
-  padding: 20px 25px;
+  padding: 30px 25px;
 }
 
 .details > h3 {
@@ -356,42 +356,47 @@ main div h1 > .magic {
   }
 }
 footer {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+  display: grid;
   background-color: #161918;
-  align-items: center;
+  gap: 1px;
+  width: 100%;
 }
 
-.box1 {
-  width: 30%;
-  color: white;
+footer {
+  font-size: 1.2vw;
   text-align: center;
-  font-size: 1vw;
   justify-content: center;
 }
-
-.box2 {
-  width: 40%;
-  text-align: center;
-  justify-content: center;
+footer ul {
+  display: flex;
   padding: 20px;
-}
-
-.box3 {
-  width: 30%;
-  font-size: 1vw;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.box3 ul {
+  gap: 50px;
   list-style: none;
 }
-.box3 ul li a:hover {
+footer ul li a:hover {
   color: #1ed690;
 }
 
+.firma {
+  color: rgba(255, 255, 255, 0.459);
+  justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  font-size: 1vw;
+}
+
+@media (max-width: 950px) {
+  footer {
+    font-size: 2vw;
+    width: 100%;
+  }
+}
+@media (max-width: 740px) {
+  footer {
+    min-width: 100%;
+  }
+}
 /* ---------formulario----------- */
 .formulario {
   background-color: #201E1F;

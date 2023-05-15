@@ -109,11 +109,12 @@
 
     <!--  -->
    
-    <section class="CardsContainer">
-      <h2 class="MyWorkTitle">My work</h2>
+    <section class="CardsContainer" >
+      <h2 class="MyWorkTitle" id="cards-id">My work</h2>
       <section class="sections-cards swiper mySwiper">
       
-        <div class="cards swiper-wrapper" id="cards-id" >
+        <div class="cards swiper-wrapper"  >
+
           <div class="card card1 swiper-slide" >
             <div class="conteiner">
               <img src="./images/logoOscuro.png" alt="" class="card-image">
@@ -163,7 +164,7 @@
             </div>
             <div class="details">
               <h3>Proyect 3</h3>
-              <p> I spent several months developing this portfolio and gained valuable experience in creating animations, cards, and other techniques along the way.</p>
+              <p>I spent several months developing this portfolio and gained valuable experience in creating cards.</p>          
               <a href="#"><img src="./images/github.png" alt="github" ></a>
             </div>
           </div>
@@ -173,7 +174,7 @@
             </div>
             <div class="details">
               <h3>Proyect 4</h3>
-              <p> I spent several months developing this portfolio and gained valuable experience in creating animations, cards, and other techniques along the way.</p>
+              <p>I spent several months developing this portfolio and gained valuable experience in creating cards.</p>
               <a href="#"><img src="./images/github.png" alt="github"></a>
             </div> 
           </div>
@@ -267,20 +268,13 @@
       
   
     <footer>
-      <div class="box1">
-        <p>@Tomas 2023</p>
-      </div>
-      
-      <div class="box2">
-        <img src="./images/logoChico.png" alt="logo chico">
-      </div>
-
-      <div class="box3">
-        <ul>
+        <ul class="menu-footer">
           <li><a href="#">About Me</a></li>
           <li><a href="#">Proyects</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
+      <div class="firma">
+        <p>@Tomas 2023</p>
       </div>
     </footer>
     
@@ -332,7 +326,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: "auto", // Ajusta slidesPerView a "auto"
-    spaceBetween: 20,
+    spaceBetween: 30,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
